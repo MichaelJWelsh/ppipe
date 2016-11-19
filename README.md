@@ -7,7 +7,7 @@ Put this in your Cargo.toml:
 ```toml
 [dependencies]
 
-ppipe = "0.1.0"
+ppipe = "0.2.0"
 ```
 
 Then add this to your root module:
