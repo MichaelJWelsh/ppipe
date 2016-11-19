@@ -1,0 +1,15 @@
+[package]
+
+name = "ppipe"
+version = "0.1.0"
+authors = ["Michael J Welsh <michael.welsh.j@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/MichaelJWelsh/ppipe.git"
+homepage = "https://github.com/MichaelJWelsh/ppipe"
+description = """
+An elegantly simple and lightweight library for making iterator pipeline's concurrent and blazingly fast,
+hence the name ppipe (parallel pipe).
+"""
+keywords = ["ppipe", "pipe", "pipeline", "iterator", "adaptor", "loop", "concurrent", "parallel", "fast"]
+
