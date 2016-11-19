@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/MichaelJWelsh/ppipe.git"
 homepage = "https://github.com/MichaelJWelsh/ppipe"
 description = """
-An elegantly simple and lightweight library for making iterator pipelines concurrent and blazingly fast,
+An elegantly simple and lightweight library for making iterator pipelines concurrent and amazingly fast,
 hence the name ppipe (parallel pipe).
 """
 keywords = ["pipe", "pipeline", "iterator", "adaptor", "concurrent"]
