@@ -11,5 +11,5 @@ description = """
 An elegantly simple and lightweight library for making iterator pipeline's concurrent and blazingly fast,
 hence the name ppipe (parallel pipe).
 """
-keywords = ["ppipe", "pipe", "pipeline", "iterator", "adaptor", "loop", "concurrent", "parallel", "fast"]
+keywords = ["pipe", "pipeline", "iterator", "adaptor", "concurrent"]
 
