@@ -24,8 +24,8 @@ pub trait PPipe: Iterator {
     /// This method can be called on generally any iterator, making every previous task become part
     /// of a concurrent pipeline. 
     ///
-    /// ppipe takes an `Option<usize>` parameter which can be used to declare if you want 
-    /// back-pressure or not. ppipe(Some(1000)) would mean that you want the concurrent receiver to 
+    /// `ppipe` takes an `Option<usize>` parameter which can be used to declare if you want 
+    /// back-pressure or not. `ppipe(Some(1000))` would mean that you want the concurrent receiver to 
     /// hold no more than 1000 values and tell the sender to block until the receiver's buffer goes 
     /// below 1000 over the course of, for example, a `for` loop.
     fn ppipe(self, back_pressure: Option<usize>) -> mpsc::IntoIter<Self::Item>;
