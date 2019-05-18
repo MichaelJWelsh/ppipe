@@ -1,5 +1,5 @@
 # ppipe
-An elegantly simple and lightweight Rust library for making iterator pipelines concurrent and amazingly fast, hence the name "ppipe" (parallel pipe).
+An elegantly simple and lightweight Rust library for making iterator pipelines concurrent and amazingly fast, hence the name "ppipe" (parallel pipe).  Find it here: https://crates.io/crates/ppipe
 
 
 ## Usage
